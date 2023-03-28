@@ -64,6 +64,17 @@ Soon:
 
 
 ### pics
+<details><summary>Lune</summary>
+<div align='center'>
+
+![image](https://user-images.githubusercontent.com/53125029/228294392-5dbf5a85-dbfe-4945-9654-b56e48584c01.png)
+</div>
+</details>
+
+<details><summary>Noir</summary>
+<div align='center'>
+
 ![image](https://user-images.githubusercontent.com/53125029/228337672-85b221af-e437-458c-a871-dec64500135a.png)
 ![image](https://user-images.githubusercontent.com/53125029/228337900-510f7e35-ce86-4e71-b0c0-364b8539fad9.png)
-![image](https://user-images.githubusercontent.com/53125029/228294392-5dbf5a85-dbfe-4945-9654-b56e48584c01.png)
+</div>
+</details>
