@@ -8,7 +8,7 @@ Personal colorscheme/themes for many things
 | foreground | ![#e0def4](https://placehold.co/15x15/e0def4/e0def4.png) `#e0def4` |
 | subtext    | ![#b1c6d3](https://placehold.co/15x15/b1c6d3/b1c6d3.png) `#b1c6d3` |
 | blue       | ![#86b2d3](https://placehold.co/15x15/86b2d3/86b2d3.png) `#86b2d3` |
-| cyan       | ![#76e3f7](https://placehold.co/15x15/76e3f7/76e3f7.png) `#76e3f7` |
+| cyan       | ![#4b93ab](https://placehold.co/15x15/4b93ab/4b93ab.png) `#4b93ab` |
 | green      | ![#a3bbae](https://placehold.co/15x15/a3bbae/a3bbae.png) `#a3bbae` |
 | yellow     | ![#f9b37f](https://placehold.co/15x15/f9b37f/f9b37f.png) `#f9b37f` |
 | red        | ![#f9667a](https://placehold.co/15x15/f9667a/f9667a.png) `#f9667a` |
