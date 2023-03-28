@@ -3,7 +3,7 @@ Personal colorscheme/themes for many things
 
 Available: 
  - [MonkeyType](https://monkeytype.com?customTheme=WyIjMWQxZTJiIiwiI2JhYjRmZSIsIiNmOWIzN2YiLCIjYjFjNmQzIiwiIzJjMjczYSIsIiNlMGRlZjQiLCIjZjk2NjdhIiwiIzliM2I1ZCIsIiNmMDU1N2EiLCIjN2EyYzRkIl0=)
- - [Alacritty](./alacritty.yaml)
+ - [Alacritty](./koish.yaml)
  
 Soon:
  - Neovim
