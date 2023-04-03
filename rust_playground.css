@@ -1,0 +1,252 @@
+:root {
+	--main-bg-color: #232327;
+	--overlay-bg-color: #1d1f24;
+	--overlay2-bg-color: #2c273a;
+	
+	--main-fg-color: #e0def4;
+	--sec-fg-color: #b1c6d3;
+	--rev-fg-color: #1d1e2b;
+	
+	--border-color: #a3bbae;
+	--border-width: 2px;
+	--border-radius: 10px;
+	--border-radius-inner: calc(var(--border-radius) - var(--border-width));
+}
+
+/* */
+
+body {
+	background: var(--main-bg-color);
+}
+
+/***********
+   popup
+************/
+[id^=":r"] > div {
+	background-color: var(--overlay-bg-color);
+	color: var(--main-fg-color);
+	border: 1px solid var(--border-color);
+	box-shadow: none;
+}
+
+[id^=":r"] > div > div > div > div button > div {
+	color: var(--main-fg-color);
+}
+
+[id^=":r"] > div > div > div > div button > div > code {
+	color: #a3bbae;
+	background: var(--main-bg-color);
+	border: 1px solid #a3bbae;
+	border-radius: 4px;
+	padding: 2px;
+}
+
+/***********
+   header
+************/
+
+#playground > div > div:nth-child(1) > div > div {
+	box-shadow: 0 2px 4px #1e1e1e;
+}
+#playground > div > div:nth-child(1) > div > div > button {
+	border: none;
+	border-radius: 5px;
+	background: var(--overlay2-bg-color);
+	color: var(--main-fg-color);
+}
+
+#playground > div > div:nth-child(1) > div:nth-last-child(1) > div >  * {
+	box-shadow: none;
+	border: none;
+	border-radius: 4px;
+	background: var(--overlay2-bg-color);
+	color: var(--main-fg-color);
+}
+
+#playground > div > div:nth-child(1) > div:nth-child(2) > div > button:nth-child(1) { border-radius: 4px 0 0 4px; }
+#playground > div > div:nth-child(1) > div:nth-child(2) > div > button:nth-child(2) { border-radius: 0; }
+#playground > div > div:nth-child(1) > div:nth-child(2) > div > button:nth-last-child(1) { border-radius: 0 4px 4px 0; }
+
+/* Build */
+#playground > div > div:nth-child(1) > div:nth-child(1) > div {
+	box-shadow: none;
+	border: none;
+	background: none;
+}
+
+	#playground > div > div:nth-child(1) > div:nth-child(1) > div > button {
+		box-shadow: none;
+		border: none;
+		background: none;
+	}
+	/* main button */
+	#playground > div > div:nth-child(1) > div:nth-child(1) > div > button:nth-child(1) > div  {
+		background-color: #86b2d3;
+		color: var(--rev-fg-color);
+		border-radius:  var(--border-radius) 0 0 var(--border-radius) ;
+		box-shadow: none;
+	}
+
+	/* options */
+	#playground > div > div:nth-child(1) > div:nth-child(1) > div > button:nth-child(2) > div  {
+		background-color: #2c273a;
+		color: var(--main-fg-color);
+		border: none;
+		border-radius: 0 var(--border-radius) var(--border-radius) 0;
+		box-shadow: none;
+	}
+
+/*************
+     Code
+**************/
+#playground > div > div:nth-child(2) > div:nth-child(1) > div  {
+	border: var(--border-width) solid var(--border-color);
+	border-radius: var(--border-radius)
+}
+
+#playground > div > div:nth-child(2) > div:nth-child(1) > div > div  {
+	border: none;
+	border-radius: var(--border-radius)
+}
+
+#playground > div > div:nth-child(2) > div:nth-child(1) > div > div > div {
+	border: none;
+	border-radius: var(--border-radius)
+}
+
+#playground > div > div:nth-child(2) > div:nth-child(1) > div > div > div > div {
+	border: none;
+	border-radius: var(--border-radius)
+}
+
+#playground > div > div:nth-child(2) > div:nth-child(1) {
+	border: none;
+}
+
+/************
+  Resize icon
+*************/
+#playground > div > div:nth-child(2) > div:nth-child(2) > span {
+	color: var(--main-fg-color);
+}
+
+/************
+    Share
+*************/
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div {
+		border: var(--border-width) solid var(--border-color);
+		border-radius: var(--border-radius)
+	}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div {
+		background: var(--overlay-bg-color);
+	}
+
+/* top buttons */
+	/* bar */
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) {
+		border: none;
+		border-radius: var(--border-radius) var(--border-radius)  0 0 ;
+	}
+
+	/* All buttons */
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > button {
+		background-color: var(--overlay-bg-color);
+		color: var(--main-fg-color);
+		border: none;
+		border-radius: var(--border-radius) var(--border-radius) 0 0 ;
+	}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > button:nth-last-child(3) {
+		background-color: var(--rev-fg-color);
+		border-radius: 0 var(--border-radius-inner) 0 var(--border-radius-inner);
+}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > button:nth-last-child(2) {
+		background-color: var(--overlay2-bg-color);
+		border-radius: 0 var(--border-radius-inner) 0 var(--border-radius-inner);
+}
+	/* Close button */
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > button:nth-last-child(1) {
+		background-color: #f8a4b6;
+		color: var(--rev-fg-color);
+		font-weight: 600;
+		border: none;
+		border-radius: 0 var(--border-radius-inner) 0 var(--border-radius-inner);
+	}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) > button:nth-last-child(1)::after {
+		content: " ✘ ";
+	}
+
+[data-test-id^="output-"] pre > code > button,  {
+	color: #4b93ab !important;
+	background-color: var(--main-bg-color) !important;
+	padding: 2px !important;
+}
+.token {
+}
+.error-location {
+	color: #4b93ab !important;
+}
+.error {
+	color: #f9667a !important
+}
+.warning {
+	color: #f9b37f !important
+}
+.note {
+	color: #bab4fe !important
+}
+
+.language-rust_errors {
+	color: #86b2d3 !important;
+	font-family: monospace !important;
+	font-size: 1rem !important;
+	line-height: 1.5em !important;
+}
+code button {
+	color: #4b93ab !important;
+}
+
+
+/* Text */
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) {
+		border-radius: 0 0 var(--border-radius) var(--border-radius) ;
+		border: none;
+	}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2)> div > p > a {
+		color: var(--main-fg-color);
+		text-decoration: none;
+	}
+
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div > p > button { color: #bab4fe; }
+	#playground > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div > p > a:visited { color: #9c7ec7; }
+
+/***********
+	header
+************/
+#playground section {
+	background: var(--overlay-bg-color);
+	color: var(--main-fg-color)
+}
+code {
+	color: #a3bbae;
+	background-color: var(--main-bg-color) !important;
+	padding: 2px !important;
+}
+pre {
+	background-color: var(--main-bg-color) !important;
+}
+
+#playground section > div > h2 > span > a { color: var(--main-fg-color); }
+#playground section > div > div > h3 > span > a { color: var(--main-fg-color); }
+
+#playground section > a { color: #86b2d3; }
+#playground section > div > p > a { color: #86b2d3; }
+#playground section > div > div > p > a { color: #86b2d3; }
+
+#playground section > a:visited { color: #9c7ec7; }
+#playground section > div > p > a:visited { color: #9c7ec7 }
+#playground section > div > div > p > a:visited { color: #9c7ec7 }
