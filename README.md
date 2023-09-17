@@ -78,3 +78,47 @@ Soon:
 ![image](https://user-images.githubusercontent.com/53125029/228337900-510f7e35-ce86-4e71-b0c0-364b8539fad9.png)
 </div>
 </details>
+
+```
+-- WIP --
+#1d1f24
+#1d1e2b
+#2c273a
+#293031
+#323C3F
+#4D4B3F
+#7C7C7C
+#45475A
+
+#e0def4 | text
+#b1c6d3 | sub-text
+
+-- Blue
+#333C57
+#798ed3
+#A5B8FF
+#4b93ab
+-- Green
+#47A8A0
+#75A29E
+#9CFFF4
+#97DED7
+#a3bbae
+-- Yellow
+#FFDDBA
+#FFC99E
+#f9b37f
+#4D3F3F
+-- Red
+#341F2D
+#513F4E
+#E87382
+#F38B9E
+#f8a4b6
+#FFCCDB
+-- Purple
+#5A4B72
+#9c7ec7
+#bab4fe
+#D2CDFF
+```
